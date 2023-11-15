@@ -1,0 +1,243 @@
+
+Nearest Fog node for each Base station:
+
+for Base station 1:[3 1 7 4 6 5 2]
+for Base station 2:[3 7 6 4 1 5 2]
+for Base station 3:[2 3 1 5 4 7 6]
+for Base station 4:[3 1 5 4 7 6 2]
+for Base station 5:[1 5 2 4 7 6 3]
+for Base station 6:[2 5 1 4 7 6 3]
+
+
+Nearest Base station for each Fog node:
+
+for IOT device 1:[5 6 2 4 1 3]
+for IOT device 2:[2 1 4 5 6 3]
+for IOT device 3:[4 2 5 1 6 3]
+for IOT device 4:[5 4 3 6 2 1]
+for IOT device 5:[5 6 2 4 3 1]
+for IOT device 6:[2 1 4 5 6 3]
+for IOT device 7:[6 5 3 4 2 1]
+for IOT device 8:[6 5 3 4 2 1]
+for IOT device 9:[5 4 6 2 3 1]
+for IOT device 10:[3 4 5 6 1 2]
+
+
+   Fog Node       X       Y  Computing Power  Transmission Power  Quota  Threshold  Computing Rate
+0         1   698.0   314.0            0.414            1.772082    477       0.99    9.105000e+09
+1         2  1609.0   319.0            0.364            1.859805    122       0.99    7.918000e+09
+2         3   265.0  1248.0            0.443            1.393492    296       0.99    7.782000e+09
+3         4   361.0   230.0            0.452            0.094571     78       0.99    8.715000e+09
+4         5   728.0   169.0            0.458            1.096774    393       0.99    6.508000e+09
+5         6   206.0   231.0            0.486            1.019628    185       0.99    7.906000e+09
+6         7   219.0   272.0            0.352            0.091781     84       0.99    6.302000e+09
+
+
+   IOT Device       X       Y  Arduino Frequency  Transmission Power
+0           1   697.0   381.0           14552077            0.555015
+1           2   205.0   973.0           14408177            0.141628
+2           3   801.0  1082.0           14604594            0.100719
+3           4  1252.0   987.0           14494336            0.769441
+4           5  1104.0   417.0           14388443            0.311337
+5           6   161.0   893.0           15720884            0.851328
+6           7  1418.0   428.0           15110457            0.894431
+7           8  1799.0   452.0           14256074            0.397467
+8           9  1018.0   860.0           15106106            0.965063
+9          10  1663.0  1092.0           14750245            0.147897
+
+
+Local Time execution time = [32.91626343 33.2450108  32.79789907 33.04739175 33.29060691 30.46902452
+ 31.6999016  33.59971336 31.7090321  32.47403687]sec
+uplink data link of each IOT towards BS j= [3.23698805e+08 3.03994622e+08 2.99076818e+08 3.28411627e+08
+ 3.15358283e+08 3.29870684e+08 3.30583235e+08 3.18881872e+08
+ 3.31679758e+08 3.04619444e+08] Mhz
+uplink transmission time for each IOT associated to BS j=[0.04325008 0.04605345 0.04681072 0.04262943 0.04439395 0.04244087
+ 0.0423494  0.04390341 0.04220939 0.04595898] milliseconds
+average traffic load density of each IOT at BS j= [0.02162504 0.02302672 0.02340536 0.02131471 0.02219698 0.02122044
+ 0.0211747  0.0219517  0.02110469 0.02297949] milliseconds
+avg Traffic Load for the BS j= 0.021999983513005656 milliseconds
+average Service Time = [0.04325008 0.04605345 0.04681072 0.04262943 0.04439395 0.04244087
+ 0.0423494  0.04390341 0.04220939 0.04595898] milliseconds
+average delivery time = [0.04325103 0.04605446 0.04681175 0.04263037 0.04439493 0.04244181
+ 0.04235033 0.04390437 0.04221032 0.04595999] milliseconds
+average waiting time = [0.00095152 0.0010132  0.00102986 0.00093787 0.00097669 0.00093372
+ 0.00093171 0.0009659  0.00092863 0.00101112] microseconds
+communication latency ratio of BS j = 0.022000467522928443 * 10^-3
+
+
+FN computing capacity=[1.90880503e+10 6.49016393e+10 2.62905405e+10 1.11730769e+11
+ 1.65597964e+10 4.27351351e+10 7.50238095e+10] * 10^-3 cycles/sec
+average service time at FN through location x= [0.26194399 0.07703966 0.19018247 0.04475043 0.30193608 0.11699975
+ 0.06664551] milliseconds
+average computing load density at FN  through location x= [0.13097199 0.03851983 0.09509124 0.02237522 0.15096804 0.05849987
+ 0.03332275] milliseconds
+Computing load at FN j = 0.0005297489405130807 milliseconds
+average waiting time for fog node j = [0.1388381  0.04083331 0.10080236 0.02371906 0.1600351  0.06201334
+ 0.0353241 ] microseconds
+Computing latency ratio of fog node j = 0.000530029723197385
+
+average latency of processing data flows via the pair of BS j and fog node j = 0.0005520301907203135
+For IOT device 1: 0.7754192634081727 seconds
+For IOT device 2: 0.8914901756664831 seconds
+For IOT device 3: 1.061426088805809 seconds
+For IOT device 4: 0.7765932988396852 seconds
+For IOT device 5: 0.7748962788155385 seconds
+For IOT device 6: 0.8914371011352847 seconds
+For IOT device 7: 0.6985753910663502 seconds
+For IOT device 8: 0.6997004011418666 seconds
+For IOT device 9: 0.7759687935494975 seconds
+For IOT device 10: 0.6684380607284478 seconds
+For each IOT device values calculated:
+
+For IOT device 1:
+Local Execution Time:323698804.8608923 seconds
+Uplink Transmission Time:4.325008245247127e-05 milliseconds
+average traffic load density at BS j:2.1625041226235635e-05 milliseconds
+average service time :4.325008245247127e-05 milliseconds
+average delivery time:4.325103397450563e-05 milliseconds
+average waiting time:9.515220343595714e-10 microseconds
+
+
+For IOT device 2:
+Local Execution Time:303994621.96720433 seconds
+Uplink Transmission Time:4.6053446305738766e-05 milliseconds
+average traffic load density at BS j:2.3026723152869383e-05 milliseconds
+average service time :4.6053446305738766e-05 milliseconds
+average delivery time:4.6054459503088536e-05 milliseconds
+average waiting time:1.0131973497683346e-09 microseconds
+
+
+For IOT device 3:
+Local Execution Time:299076818.08735013 seconds
+Uplink Transmission Time:4.681071602116309e-05 milliseconds
+average traffic load density at BS j:2.3405358010581545e-05 milliseconds
+average service time :4.681071602116309e-05 milliseconds
+average delivery time:4.681174587880064e-05 milliseconds
+average waiting time:1.0298576375486246e-09 microseconds
+
+
+For IOT device 4:
+Local Execution Time:328411626.80932724 seconds
+Uplink Transmission Time:4.262942861072416e-05 milliseconds
+average traffic load density at BS j:2.131471430536208e-05 milliseconds
+average service time :4.262942861072416e-05 milliseconds
+average delivery time:4.263036647808383e-05 milliseconds
+average waiting time:9.378673596712334e-10 microseconds
+
+
+For IOT device 5:
+Local Execution Time:315358283.2100451 seconds
+Uplink Transmission Time:4.43939504537297e-05 milliseconds
+average traffic load density at BS j:2.219697522686485e-05 milliseconds
+average service time :4.43939504537297e-05 milliseconds
+average delivery time:4.439492714139487e-05 milliseconds
+average waiting time:9.766876651717745e-10 microseconds
+
+
+For IOT device 6:
+Local Execution Time:329870684.39699477 seconds
+Uplink Transmission Time:4.244087353682874e-05 milliseconds
+average traffic load density at BS j:2.122043676841437e-05 milliseconds
+average service time :4.244087353682874e-05 milliseconds
+average delivery time:4.2441807255888636e-05 milliseconds
+average waiting time:9.33719059891714e-10 microseconds
+
+
+For IOT device 7:
+Local Execution Time:330583235.00140697 seconds
+Uplink Transmission Time:4.2349395001656435e-05 milliseconds
+average traffic load density at BS j:2.1174697500828218e-05 milliseconds
+average service time :4.2349395001656435e-05 milliseconds
+average delivery time:4.2350326708145786e-05 milliseconds
+average waiting time:9.317064893496104e-10 microseconds
+
+
+For IOT device 8:
+Local Execution Time:318881871.62997735 seconds
+Uplink Transmission Time:4.390340513381474e-05 milliseconds
+average traffic load density at BS j:2.195170256690737e-05 milliseconds
+average service time :4.390340513381474e-05 milliseconds
+average delivery time:4.390437102925353e-05 milliseconds
+average waiting time:9.658954387924608e-10 microseconds
+
+
+For IOT device 9:
+Local Execution Time:331679758.2327633 seconds
+Uplink Transmission Time:4.220938918489926e-05 milliseconds
+average traffic load density at BS j:2.110469459244963e-05 milliseconds
+average service time :4.220938918489926e-05 milliseconds
+average delivery time:4.221031781119519e-05 milliseconds
+average waiting time:9.286262959250232e-10 microseconds
+
+
+For IOT device 10:
+Local Execution Time:304619443.5958521 seconds
+Uplink Transmission Time:4.5958983559087016e-05 milliseconds
+average traffic load density at BS j:2.2979491779543508e-05 milliseconds
+average service time :4.5958983559087016e-05 milliseconds
+average delivery time:4.59599946782122e-05 milliseconds
+average waiting time:1.0111191251784961e-09 microseconds
+
+
+
+
+avg Traffic Load for the BS j= 0.021999983513005656 milliseconds
+communication latency ratio of BS j = 0.022000467522928443 * 10^-3
+
+
+For each Fog Node Values calculated:
+
+For Fog Node 1:
+Computing capacity:19088050.314465407 * 10^-3 cycles/sec
+average service time at FN through location x:0.0002619439868204284 milliseconds
+average computing load density at FN  through location x:0.0001309719934102142 milliseconds
+average waiting time for fog node j:1.388380988276511e-07 microseconds
+
+
+For Fog Node 2:
+Computing capacity:64901639.344262294 * 10^-3 cycles/sec
+average service time at FN through location x:7.703965647890881e-05 milliseconds
+average computing load density at FN  through location x:3.8519828239454405e-05 milliseconds
+average waiting time for fog node j:4.0833307798737664e-08 microseconds
+
+
+For Fog Node 3:
+Computing capacity:26290540.54054054 * 10^-3 cycles/sec
+average service time at FN through location x:0.00019018247237214086 milliseconds
+average computing load density at FN  through location x:9.509123618607043e-05 milliseconds
+average waiting time for fog node j:1.0080236318840014e-07 microseconds
+
+
+For Fog Node 4:
+Computing capacity:111730769.23076923 * 10^-3 cycles/sec
+average service time at FN through location x:4.4750430292598966e-05 milliseconds
+average computing load density at FN  through location x:2.2375215146299483e-05 milliseconds
+average waiting time for fog node j:2.3719058180950104e-08 microseconds
+
+
+For Fog Node 5:
+Computing capacity:16559796.437659033 * 10^-3 cycles/sec
+average service time at FN through location x:0.0003019360786724032 milliseconds
+average computing load density at FN  through location x:0.0001509680393362016 milliseconds
+average waiting time for fog node j:1.6003509620203773e-07 microseconds
+
+
+For Fog Node 6:
+Computing capacity:42735135.13513514 * 10^-3 cycles/sec
+average service time at FN through location x:0.00011699974702757399 milliseconds
+average computing load density at FN  through location x:5.8499873513786996e-05 milliseconds
+average waiting time for fog node j:6.20133435311891e-08 microseconds
+
+
+For Fog Node 7:
+Computing capacity:75023809.52380952 * 10^-3 cycles/sec
+average service time at FN through location x:6.664550936210727e-05 milliseconds
+average computing load density at FN  through location x:3.3322754681053636e-05 milliseconds
+average waiting time for fog node j:3.532410087954645e-08 microseconds
+
+
+
+
+Computing latency ratio of fog node j:0.000530029723197385
+Computing load at FN j = 0.0005297489405130807 milliseconds
+average latency of processing data flows via the pair of BS j and fog node j = 0.0005520301907203135
